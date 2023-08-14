@@ -263,9 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/build_galahad.prop:$(TARGET_COPY_OUT_VENDOR)/build_galahad.prop \
     vendor/xiaomi/lancelot/proprietary/vendor/build_lancelot.prop:$(TARGET_COPY_OUT_VENDOR)/build_lancelot.prop \
     vendor/xiaomi/lancelot/proprietary/vendor/build_ss_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_ss_vendor.prop \
-    vendor/xiaomi/lancelot/proprietary/vendor/data-app/GlobalFashiongallery/GlobalFashiongallery.apk:$(TARGET_COPY_OUT_VENDOR)/data-app/GlobalFashiongallery/GlobalFashiongallery.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/data-app/XMRemoteController/XMRemoteController.apk:$(TARGET_COPY_OUT_VENDOR)/data-app/XMRemoteController/XMRemoteController.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/data-app/wps_lite/wps_lite.apk:$(TARGET_COPY_OUT_VENDOR)/data-app/wps_lite/wps_lite.apk \
     vendor/xiaomi/lancelot/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
     vendor/xiaomi/lancelot/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
