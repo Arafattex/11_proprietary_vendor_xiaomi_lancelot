@@ -42,14 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc \
     vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_galahad.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_galahad.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_galahad_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_galahad_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_lancelot.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_lancelot.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_lancelot_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_lancelot_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.nxp.hardware.nfc@1.0.so \
@@ -1801,14 +1793,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/android.hardware.se.omapi.uicc.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/com.android.nfc_extras.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/com.nxp.mifare.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_galahad.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_galahad_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_lancelot.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_lancelot_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
@@ -1858,3 +1842,13 @@ PRODUCT_PACKAGES += \
     SoterService \
     TetheringResOverlay \
     com.fingerprints.extension
+
+ODM_MANIFEST_FILES += \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad_ss.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot_ss.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
+    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
