@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/lancelot
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/lancelot/proprietary/app/SoterService/SoterService.apk:$(TARGET_COPY_OUT_SYSTEM)/app/SoterService/SoterService.apk \
     vendor/xiaomi/lancelot/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/lancelot/proprietary/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/xiaomi/lancelot/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
@@ -59,17 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.nxp.hardware.nfc@1.1.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk:$(TARGET_COPY_OUT_VENDOR)/app/FingerprintExtensionService/FingerprintExtensionService.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/IconShapeOverlay/IconShapeOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/IconShapeOverlay/IconShapeOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/ImageCollection/ImageCollection.apk:$(TARGET_COPY_OUT_VENDOR)/app/ImageCollection/ImageCollection.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/NotchOverlay/NotchOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NotchOverlay/NotchOverlay.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/SensorTestTool/SensorTestTool.apk:$(TARGET_COPY_OUT_VENDOR)/app/SensorTestTool/SensorTestTool.apk \
-    vendor/xiaomi/lancelot/proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     vendor/xiaomi/lancelot/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
     vendor/xiaomi/lancelot/proprietary/vendor/bin/H9HP16AECMMDAR-KMM_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/H9HP16AECMMDAR-KMM_P08.bin \
     vendor/xiaomi/lancelot/proprietary/vendor/bin/KM3H6001CA-B515_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/KM3H6001CA-B515_P08.bin \
@@ -968,7 +956,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin \
     vendor/xiaomi/lancelot/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/lancelot/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/xiaomi/lancelot/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
@@ -1855,3 +1842,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
+
+
+PRODUCT_PACKAGES += \
+    FingerprintExtensionService \
+    GoogleNetworkStackResOverlay \
+    GoogleTetheringResOverlay \
+    IconShapeOverlay \
+    ImageCollection \
+    InProcessTetheringResOverlay \
+    NetworkStackInProcessResOverlay \
+    NetworkStackResOverlay \
+    NotchOverlay \
+    SensorTestTool \
+    SoterService \
+    TetheringResOverlay \
+    com.fingerprints.extension
