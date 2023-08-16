@@ -36,12 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
     vendor/xiaomi/lancelot/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/lancelot/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/build_galahad.prop:$(TARGET_COPY_OUT_ODM)/etc/build_galahad.prop \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/build_lancelot.prop:$(TARGET_COPY_OUT_ODM)/etc/build_lancelot.prop \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/android.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/android.hardware.nfc@1.0-service.rc \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc \
-    vendor/xiaomi/lancelot/proprietary/odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc:$(TARGET_COPY_OUT_ODM)/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/lancelot/proprietary/system_ext/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.nxp.hardware.nfc@1.0.so \
@@ -240,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/lancelot/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/xiaomi/lancelot/proprietary/vendor/build_dsds_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_dsds_vendor.prop \
-    vendor/xiaomi/lancelot/proprietary/vendor/build_galahad.prop:$(TARGET_COPY_OUT_VENDOR)/build_galahad.prop \
     vendor/xiaomi/lancelot/proprietary/vendor/build_lancelot.prop:$(TARGET_COPY_OUT_VENDOR)/build_lancelot.prop \
     vendor/xiaomi/lancelot/proprietary/vendor/build_ss_vendor.prop:$(TARGET_COPY_OUT_VENDOR)/build_ss_vendor.prop \
     vendor/xiaomi/lancelot/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
@@ -868,26 +861,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.tidaservice.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-default.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator-mtk-default.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/lancelot/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -1781,23 +1754,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/lancelot/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/build_galahad.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_galahad.prop \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/build_lancelot.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_lancelot.prop \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/galahad/android.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/galahad/android.hardware.nfc@1.0-service.rc \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/galahad/vendor.microtrust.hardware.se@1.0-service.rc \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/android.hardware.nfc.hce.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/android.hardware.nfc.hcef.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/android.hardware.nfc.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/android.hardware.se.omapi.uicc.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/com.android.nfc_extras.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/permissions/sku_galahad/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_galahad/com.nxp.mifare.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/xiaomi/lancelot/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/xiaomi/lancelot/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/xiaomi/lancelot/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/020b0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020b0000000000000000000000000000.ta \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
     vendor/xiaomi/lancelot/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
@@ -1841,14 +1797,24 @@ PRODUCT_PACKAGES += \
     SensorTestTool \
     SoterService \
     TetheringResOverlay \
-    com.fingerprints.extension
-
-ODM_MANIFEST_FILES += \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_galahad.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_lancelot.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
-    vendor/xiaomi/lancelot/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
+    com.fingerprints.extension \
+    android.hardware.cas@1.2-service \
+    android.hardware.gpu@1.0-service \
+    android.hardware.health@2.1 \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi@1.0-service \
+    lights-mtk-default \
+    manifest_android.hardware.drm@1.3-service.clearkey \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_vendor.xiaomi.hardware.mfidoca \
+    manifest_vendor.xiaomi.hardware.mlipay \
+    manifest_vendor.xiaomi.hardware.mtdservice \
+    manifest_vendor.xiaomi.hardware.tidaservice \
+    manifest_vendor.xiaomi.hardware.vsimapp \
+    manifest \
+    power-default \
+    vendor.mediatek.hardware.dplanner@2.0-service \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vibrator-mtk-default
